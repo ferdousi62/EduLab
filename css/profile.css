@@ -1,0 +1,86 @@
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+   
+}
+.usertitle {
+    font-family: 'FontAwesome';
+    font-size: 31px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 11px;
+    color: black;
+    margin-left: 15px;
+}
+.role {
+    font-family: 'FontAwesome';
+    font-size: 29px;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #776969;
+    margin-left: 15px;
+}
+img.user_profile {
+    vertical-align: middle;
+    border-style: none;
+    margin: 0px 11px;
+    height: 192px;
+    width: 192px;
+}
+.profile {
+    display: inline-flex;
+    margin-bottom: 8px;
+    margin-top: 7px;
+}
+.side_bar {
+    background-color: darkblue;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 1px;
+    margin: 0px;
+    border-radius: 6px;
+}
+
+.pro-pic {
+    display: block;
+    color: darkmagenta !important;
+    font-family: 'FontAwesome';
+    font-size: 22px;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 0px;
+   
+    margin-left: 15px;
+}
+tr {
+    font-size: 21px;
+}
+.form-control {
+    margin-left: 4%;
+    display: block;
+    width: 57%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

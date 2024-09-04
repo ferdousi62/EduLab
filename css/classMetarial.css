@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+.upload.bg-alt {
+    background: white;
+    border-radius: 7px;
+    margin-top: 0px;
+    margin-left: -31px;
+}
+
+.upload.bg-alt ul li {
+    padding-right: 68px;
+    display: inline;
+    padding-left: 26px;
+
+}
+.upload.bg-alt ul {
+    background: white;
+    border-radius: 7px;
+    margin-top: 11px;
+    border: ridge;
+}
+table {
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+}
+
+tr {
+    border-block: initial;
+    block-size: 55px;
+    border: 2px inset;
+}
+th, td {
+    padding: 10px;
+    display: table-cell;
+    text-align: center;
+   
+    font-family: auto;
+    font-size: 21px;
+}
+tr:hover {
+    background: whitesmoke;
+}
+
+
+
+
+
+.class p {
+    margin: 14px;
+    font-family: 'FontAwesome';
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529!important;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.date {
+    font-weight: 600;
+    font-size: 27px;
+    font-family: 'FontAwesome';
+    border-bottom: 1px solid #e1e1e7;
+}
+.schedule {
+    padding: 6px;
+    border-radius: 5px;
+}
+.schedule_button {
+    color: #8b8e9f;
+    border: 1px dashed #e1e1e7;
+    margin-top: 8px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'FontAwesome';
+    font-size: 22px;
+}
+.modal-content {
+  
+  padding-left: 14px;
+  font-family: 'FontAwesome';
+  font-size: large;
+}

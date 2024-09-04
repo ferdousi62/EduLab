@@ -1,0 +1,141 @@
+.post.bg-alt {
+    
+    padding: inherit;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top:13px;
+}
+ 
+
+
+.list-group-item+.list-group-item.active {
+    margin-top: 1px;
+    border-top-width: 0px;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: darkblue;
+    border-color: #007bff;
+}
+  
+
+
+.class p {
+    margin: 14px;
+    font-family: 'FontAwesome';
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+.side_bar {
+    background-color: darkblue;
+}
+.list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 1px;
+    background-color: darkblue;
+    margin: 0px;
+    
+}
+.container {
+    /* margin: -22px; */
+    margin-top: 5px;
+    padding-right: 15px;
+    background: aliceblue;
+    max-width: initial;
+    padding-left: 15px;
+    height: 300%
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 0.25rem;
+    background-color: darkblue;
+    border-bottom: 2px solid honeydew;
+    color: white;
+}
+svg.bi.bi-three-dots-vertical:hover {
+    background: darkgray;
+    border-radius: 6px;
+}
+
+button.btn {
+    block-size: auto;
+    border-block: initial;
+    background: #2196f3c7;
+    border: outset;
+    margin-bottom: 60px;
+}
+.t_name {
+    font-weight: 700;
+    font-family: emoji;
+    font-size: 22px;
+}
+.post_date {
+    font-size: 15px;
+    font-style: revert;
+}
+.t_post {
+    font-family: auto;
+    font-size: 22px;
+    font-weight: 500;
+    border-style: groove;
+}
+.upload_partition {
+    block-size: initial;
+    background: white;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+.course_title {
+    font-weight: 900;
+    font-size: 31px;
+    font-family: auto;
+    border-block: initial;
+    border-block-width: initial;
+    background: white;
+    border-radius: 6px;
+    height: 132px;
+    margin-bottom: 81px;
+    border-style: groove;
+    text-align: center;
+}
+
+.dropdown-item button{
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu.show {
+    display: block;
+    background: darkblue ;
+    margin-left: 0px;
+    margin-block: -4px;
+    padding-top: 0px;
+    padding: 0px;
+}
+

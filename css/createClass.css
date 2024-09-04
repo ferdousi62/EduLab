@@ -1,0 +1,118 @@
+body{
+    background: aliceblue;
+    font-family: auto;
+    color: white;
+    margin: 0;
+}
+.popup.content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 150%) scale(0) !important;
+    width: 300px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    border-radius: 20px;
+    background: #222222;
+    box-shadow: 38px 38px 56px, #1e1e1e, -15px -15px 28px !important ;
+    z-index: -1;
+}
+.popup.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 5px 15px;
+    background: #222222;
+    box-shadow: 5px 5px 15px, #1e1e1e, -5px -5px 15px #343434;
+    
+}
+.popup .active.content{
+    transition: all 300ms ease-in-out !important;
+    transform: translate(-50% ,-50%)scale(1) !important;
+}
+.first-button{
+    transform: translate(-50%,-50%);
+    transition: box-shadow 0.5s ease !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contain .box {
+    position: relative;
+    width: 479px;
+    height: 465px;
+    margin: 0px 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box input, button {
+    font-size: 15px;
+    width: 97%;
+    margin: 8px;
+    padding: -2px;
+    display: block;
+    /* border: 2px solid black; */
+    /* border: 2px solid black; */
+    outline:  aliceblue; 
+    box-shadow: 2px;
+    font-family: auto;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    width: 100%;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn {
+    color: white;
+    /* background: purple; */
+    padding: 8px 12px;
+    font-size: 20;
+    /* border: 2px solid white; */
+    border-radius: 14px;
+    cursor: pointer;
+    width: 93px;
+    color: white;
+   
+    padding: 8px 12px;
+    font-size: 20;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+label {
+    display: contents;
+    margin-bottom: .5rem;
+    color: black;
+}
+.form-design {
+    width: 90%;
+    position: absolute;
+    justify-content: center;
+}

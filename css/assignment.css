@@ -1,0 +1,19 @@
+.show_assignment.bg-alt {
+    background: white;
+    padding: 6px;
+    border-radius: 6px;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.a_file {
+    border-block: initial;
+    border: 1px dotted;
+    cursor: pointer;
+    background: beige;
+}
+.submission_show {
+    text-align: center;
+    padding: 5px;
+}
+
